@@ -11,4 +11,4 @@ tamanho=8
 
 senha= "".join(random.sample(ciclo,tamanho))
 
-print(senha)
+print(f'Senha gerada: {senha}')
